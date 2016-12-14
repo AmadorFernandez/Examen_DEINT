@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="acept">Aceptar</string>
+    <string name="action_app_info">Info App</string>
+    <string name="alert_title">Offering</string>
+    <string name="app_add">Add</string>
+    <string name="app_info_text">Aplication create by YO</string>
+    <string name="app_name">Offering</string>
+    <string name="no_action">Can\'t action</string>
+    <string name="only_select">Minimun one type</string>
+    <string name="order_asc">Oreder ASC</string>
+    <string name="see_home_electronict">See offer electronict</string>
+    <string name="see_home_offering">See home offert</string>
+    <string name="see_home_sports">See sports</string>
+    <string name="text_acept">Acept</string>
+    <string name="text_fecha">Date</string>
+    <string name="text_name">Name</string>
+    <string name="text_see_impornce">See importance oferts</string>
+    <string name="text_see_importancia">Importance</string>
+    <string name="text_tienda">Tienda (EN INGLES)</string>
+    <string name="text_tipo">Type</string>
+    <string name="text_title">Config</string>
+</resources>

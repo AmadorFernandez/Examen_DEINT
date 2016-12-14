@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.usuario.offering.MainActivity">
+
+    <TextView
+        android:textSize="20dp"
+        android:id="@+id/txvTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/text_title"
+        android:layout_centerHorizontal="true"
+        />
+
+    <CheckBox
+        android:layout_below="@+id/txvTitle"
+        android:id="@+id/chkSeeHome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAlignment="viewEnd"
+        android:text="@string/see_home_offering"
+        />
+
+    <CheckBox
+        android:layout_below="@+id/chkSeeHome"
+        android:id="@+id/chkSeeElectronict"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAlignment="viewEnd"
+        android:text="@string/see_home_electronict"
+        />
+
+    <CheckBox
+        android:layout_below="@+id/chkSeeElectronict"
+        android:id="@+id/chkSeeSportsList"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAlignment="viewEnd"
+        android:text="@string/see_home_sports"
+        />
+
+    <View
+        android:id="@+id/view"
+        android:layout_below="@+id/chkSeeSportsList"
+        android:background="@color/colorPrimary"
+        android:layout_width="match_parent"
+        android:layout_height="4dp"/>
+
+    <CheckBox
+        android:id="@+id/chkImportance"
+        android:layout_below="@+id/view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/text_see_impornce"
+        />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnOk"
+        android:layout_below="@+id/chkImportance"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="25dp"
+        android:background="@drawable/sape_btn"
+        android:text="@string/text_acept"
+        />
+
+
+</RelativeLayout>

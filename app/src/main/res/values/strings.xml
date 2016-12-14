@@ -1,0 +1,38 @@
+<resources>
+    <string name="app_name">Offering</string>
+    <string name="text_title">Configuración Offering</string>
+    <string name="see_home_offering">Mostrar ofertas del hogar</string>
+    <string name="see_home_electronict">Mostrar ofertas de electronica</string>
+    <string name="see_home_sports">Mostrar los deportes</string>
+    <string name="text_see_impornce">Mostrar la importancia de todas las ofertas</string>
+    <string name="text_acept">Aceptar</string>
+    <string name="only_select">Se debe seleccionar almenos un tipo de oferta</string>
+    <string name="order_asc">Orden ascendente</string>
+    <string name="text_name">Nombre</string>
+    <string name="text_tienda">Tienda</string>
+    <string name="text_fecha">Fecha</string>
+    <string name="text_see_importancia">Importancia</string>
+    <string name="app_add">Añadir</string>
+    <string name="action_app_info">Informacion App</string>
+    <string name="alert_title">Offering</string>
+    <string name="app_info_text">Aplicacion desarrollada por Amador Fernandez</string>
+    <string name="acept">Aceptar</string>
+    <string name="no_action">No se ha podido realizar la operacion</string>
+    <string name="text_tipo">Tipo</string>
+
+    <string-array name="importance">
+
+        <item>Muy Importante</item>
+        <item>Importante</item>
+        <item>No Importante</item>
+
+    </string-array>
+
+    <string-array name="categoryes">
+
+        <item>Hogar</item>
+        <item>Electronica</item>
+        <item>Deportes</item>
+
+    </string-array>
+</resources>
